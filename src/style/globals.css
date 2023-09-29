@@ -17,20 +17,19 @@
 }
 
 body {
-  font-family: "text-regular";
   background-color: #d676358c;
 }
 
 .text-bold {
-  font-family: "text-bold";
+  font-weight: 700;
 }
 
 .text-semibold {
-  font-family: "text-semibold";
+  font-weight: 600;
 }
 
 .text-regular {
-  font-family: "text-regular";
+  font-weight: 400;
 }
 
 .c-main {
