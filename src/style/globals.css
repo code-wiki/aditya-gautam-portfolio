@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'text-regular';
+  src: url('../assets/BinancePlexRegular.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'text-semibold';
+  src: url('../assets/BinancePlex-Medium.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'text-bold';
+  src: url('../assets/BinancePlex-SemiBold.ttf');
+  font-display: swap;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-family: 'text-regular';
+  background-color: #d676358c;
+
+}
+
+.text-bold {
+  font-family: 'text-bold';
+}
+
+.text-semibold {
+  font-family: 'text-semibold';
+}
+
+.text-regular {
+  font-family: 'text-regular';
+}
+
+.c-main {
+  margin-top: 10%;
+}
+
+.img-cartoon {
+  width: 80% !important;
+}
+
+.social-link {
+  color: #000000c2;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: blue;
+  text-decoration: none;
+}
