@@ -27,6 +27,9 @@ const binancePlex = localFont({
 export const metadata: Metadata = {
     title: 'Aditya Gautam',
     description: 'Aditya Gautam Portfolio',
+    icons: {
+        icon: '/favicon.png',
+    },
 };
 
 export default function RootLayout({
@@ -36,6 +39,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
+            <link rel="icon" href="/favicon.ico" sizes="any" />
             <body className={binancePlex.className}>{children}</body>
         </html>
     );
